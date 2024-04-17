@@ -17,3 +17,16 @@ mascotas = ["Mico", "Noa", "Chispa", "Nina", "Rayo", "Toby", "Chiqui", "Rocky", 
 primero, segundo, tercero, *otros , antepenultimo, penultimo, ultimo = mascotas
 
 print(primero, segundo, tercero, antepenultimo, penultimo, ultimo)
+
+
+
+#######################################
+
+mascotas = ["Bruno", "Noa", "Chispa", "Nina", "Rayo", "Bruno", "Noa", "Rocky", "Plutón",
+           "Thor", "Chico", "Noa", "Luna", "Bruno", "Lola", "Nico", "Coco", "Noa", "Linda", "Max"]
+
+
+while mascotas.count("Noa") > 0:
+    mascotas.remove("Noa")
+
+print("Lista 2 sin Noa:", mascotas)
